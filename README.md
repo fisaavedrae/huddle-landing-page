@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/fisaavedrae/huddle-landing-page)
-- Live Site URL: [Add live site URL here](https://huddle-landing-page-one-sigma.vercel.app/)
+- Solution URL: [https://github.com/fisaavedrae/huddle-landing-page](https://github.com/fisaavedrae/huddle-landing-page)
+- Live Site URL: [https://huddle-landing-page-one-sigma.vercel.app/](https://huddle-landing-page-one-sigma.vercel.app/)
 
 ## My process
 
@@ -80,7 +80,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://fisaavedrae.github.io/)
+- Website - [{FSE}](https://fisaavedrae.github.io/)
 - Frontend Mentor - [@fisaavedrae](https://www.frontendmentor.io/profile/fisaavedrae)
 - Twitter - [@fisaavedrae](https://www.twitter.com/fisaavedrae)
 - Instagram - [@fisaavedrae] (https://www.instagram.com/fisaavedrae/)
