@@ -5,25 +5,240 @@ body {
     background-image: url(../images/bg-mobile.svg);
     background-repeat: no-repeat;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
+
     color: white;
 }
 
 .container {
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.logo {
     width: 100%;
+    align-content: start;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.principal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.ilustracion {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+.ilustracion img {
+    width: 80%;
+}
+
+.contenido {
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-flow: column;
 }
 
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 15px;
+    width: 90%;
+}
 
+.descripcion {
+    font-size: 0.9rem;
+    text-align: center;
+    padding-bottom: 15px;
+    line-height: 22px;
+    width: 90%;
+}
 
+.boton {
+    color: hsl(257, 40%, 49%);
+    font-size: 0.7rem;
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    align-self: center;
+    box-shadow: hsl(257, 40%, 30%) 0px 7px 5px 0px;
+}
+
+.registro {
+    display: flex;
+    justify-content: center;
+}
+
+.boton:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.footer div {
+    border: 1px;
+    border-radius: 50%;
+    border-style: solid;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.footer div:hover {
+    border: 1px;
+    border-radius: 50%;
+    border-style: solid;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    padding-top: 8px;
+    border-color: hsl(300, 69%, 71%);
+}
+
+.face:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
+.insta:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
+.twitter:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    padding-top: 40px;
 }
 
 .attribution a {
     color: yellow;
+}
+
+
+@media (min-width:612px) {
+    body {
+        background-image: url(../images/bg-desktop.svg);
+    }
+
+    .container {
+        width: 99%;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        flex-flow: column;
+    }
+
+    .logo {
+        width: 100%;
+        align-content: start;
+        padding-top: 30px;
+        padding-left: 140px;
+    }
+
+    .principal {
+        width: 90%;
+        display: flex;
+        justify-content: left;
+        flex-flow: row;
+        align-items: left;
+        padding-top: 40px;
+        height: 450px;
+    }
+
+    .ilustracion {
+        width: 50%;
+    }
+
+    .ilustracion img {
+        width: 100%;
+    }
+
+    .contenido {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: start;
+        flex-flow: column;
+        padding-left: 40px;
+        padding-top: 0px;
+
+    }
+
+    .titulo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-align: left;
+        padding-bottom: 15px;
+        padding-top: 30px;
+        width: 90%;
+    }
+
+    .descripcion {
+        font-size: 1.1rem;
+        text-align: left;
+        padding-bottom: 15px;
+        line-height: 30px;
+        width: 90%;
+    }
+
+    .registro {
+        width: 150px;
+    }
+
+    .boton {
+        color: hsl(257, 40%, 49%);
+        font-size: 0.9rem;
+        background-color: white;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+        text-align: center;
+        align-self: left;
+        box-shadow: hsl(257, 40%, 30%) 0px 7px 5px 0px;
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        gap: 20px;
+        padding-right: 50px;
+    }
 }
